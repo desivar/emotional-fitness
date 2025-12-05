@@ -10,6 +10,8 @@ import Dashboard from './pages/Dashboard';
 import Journal from './pages/Journal';
 import Insights from './pages/Insights';
 import Wellness from './pages/Wellness';
+// Import components
+import Navigation from './components/Navigation';
 
 const theme = createTheme({
   palette: {
