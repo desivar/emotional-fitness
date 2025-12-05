@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 // Database connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/mental-health-tracker', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/emotional-fitness', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
